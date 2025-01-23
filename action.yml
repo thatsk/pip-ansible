@@ -1,4 +1,4 @@
-name: "Setup Ansible"
+name: "Setup Ansible Via pip"
 description: "A GitHub Action that installs Ansible and its dependencies."
 inputs:
     version:
