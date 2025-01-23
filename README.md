@@ -10,7 +10,7 @@ jobs:
     steps:
     
       - name: "Install Ansible"
-        uses: thatsk/setup-ansible@VERSION 
+        uses: thatsk/pip-ansible@VERSION 
         with:
           version: "11.1.0"
 
