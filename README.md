@@ -10,9 +10,9 @@ jobs:
     steps:
     
       - name: "Install Ansible"
-        uses: alex-oleshkevich/setup-ansible@VERSION 
+        uses: thatsk/setup-ansible@VERSION 
         with:
-          version: "9.3.0"
+          version: "11.1.0"
 
       - name: "Print Ansible version"
         run: ansible-playbook --version
