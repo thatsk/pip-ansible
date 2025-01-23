@@ -13,6 +13,8 @@ jobs:
         uses: ./ 
         with:
           version: "11.1.0"
+      - name: "Print Ansible too"
+        run: ansible --version
 
       - name: "Print Ansible version"
         run: ansible-playbook --version
